@@ -1,0 +1,52 @@
+
+    [
+    {
+      "id": 1,
+      "title": "Bitcoin Explorer Node JS + React JS",
+      "description": "Bitcoin Explorer is a web application that shows info of Bitcoin blockchain such as block height, difficulty, transactions.\n CLICK FOR MORE ...",
+      "fullDescription": "This project uses Node js and RPC API Reference from developer.bitcoin.org site to catch data. For design React JS is used. \n\n Main page shows info of the few newest blocks and transactions and it is also possible to search transactions or block by its hash number or block with given block height. Search result contain details about request block or transaction (eg. block height, header, fee…).\n\n Important part of the application is connecting to a server that returns all the information found on the blockchain for testing, and transforming and calculating the information which is accessed by sending a query to the server via the created client. ",
+      "images": ["btcExplorer.JPG", "btcExplorer_blckInfo.JPG", "btcExplorer_transactionInfo.JPG"]
+    },
+    {
+      "id": 2,
+      "title": "React JS Chocolaterie",
+      "description": " Web store for Chocolates. \n CLICK FOR MORE ...",
+      "fullDescription": "Chocolaterie web app was created with React JS and Express JS with Mongo non-relational db. \n Main goal of this web application was proper authorization and to make a good design.\n Authorization was implemented using hashing system and JWT token.",
+      "images": ["chocolateria.PNG", "chocolateria2.PNG"]
+    },
+    {
+        "id": 3,
+        "title": "React JS Tea shop",
+        "description": "This project shows cart implementation using React. \n CLICK FOR MORE...",
+        "fullDescription": "Tea shop cart was implemented using React JS state manipulation (useState, useEffect, useContext) and react router. \n Data like items and price are located in json file and were fetched just for presentation purposes. \n Main goal was to show changes like price and quantity when adding items into cart using states and modals. The counter was implemented using states. Also it is possible to add or remove items from the cart. ",
+        "images": ["react_cart1.JPG", "react_cart2.JPG"]
+      },
+    {
+        "id": 4,
+        "title": "Node JS + React JS Cinema App",
+        "description": "Cinema app was created using Postgres, Docker, Koa JS and React JS. \n CLICK FOR MORE...",
+        "fullDescription": "This is temporary expanded text for Project with more details coming soon.",
+        "images": ["cinemaApp.JPG", "cinemaApp2.JPG","cinemaApp22.JPG"]
+      },
+      {
+        "id": 5,
+        "title": "MERN enrollment App",
+        "description": "Enrollment Application is fullstack App made using Mongo DB with Compass and Node JS and with React JS for the frontend. \n CLICK FOR MORE ...",
+        "fullDescription": "This is temporary expanded text for Project with more details coming soon.",
+        "images": ["MERN_erollment_login.JPG","MERN_erollment_register.JPG", "MERN_erollment_Edit_subject_admin.JPG","MERN_erollment_student_admin.JPG","MERN_erollment_students_admin.JPG", "MERN_erollment_subject_admin.JPG"]
+      },
+      {
+        "id": 6,
+        "title": "Django + Angluar 11 - Bus App",
+        "description": "This is fullstack web app for Bus timetables and ticketing system created with Django and Angular 11. \n CLICK FOR MORE... ",
+        "fullDescription": "This is temporary expanded text for Project with more details coming soon.",
+        "images": ["zavrsni_bus_app.PNG", "zavrsni_bus_app2.PNG", "zavrsni_bus_app3.PNG", "zavrsni_bus_app4.PNG"]
+      },
+      {
+        "id": 7,
+        "title": "Drupal Bike shop",
+        "description": "Bike web shop was created using Drupal CMS with three roles available. \n CLICK FOR MORE...",
+        "fullDescription": "This is temporary expanded text for Project with more details coming soon.",
+        "images": ["Drupal_bikeShop_cart.JPG", "Drupal_bikeShop.JPG",  "Drupal_bikeShop_nav.JPG",  "Drupal_bikeShop2.jpg",  "Drupal_bikeShop2_comment.jpg", "Drupal_bikeShop3.jpg"]
+      }
+  ]

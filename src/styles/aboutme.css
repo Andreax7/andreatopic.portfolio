@@ -1,0 +1,12 @@
+.boutme {
+    font-family: "New Tegomin", serif;
+      color: #00E997;
+      text-align: center;
+      padding: 20px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;    
+      margin: 0;
+      margin-top: 4vh;   
+  }

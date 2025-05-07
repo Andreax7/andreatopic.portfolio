@@ -1,0 +1,42 @@
+{
+  "name": "andreatopic.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build && echo '/* /index.html 200' > build/_redirects",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "AndreaDev",
+  "license": "ISC",
+  "description": "My portfolio website",
+  "homepage": "https://andreatopic.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andreax7/andreatopic.github.io.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.26.8",
+    "@babel/preset-env": "^7.26.8",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "framer-motion": "^12.4.1",
+    "html-webpack-plugin": "^5.6.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.2.0",
+    "style-loader": "^4.0.0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.3.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}

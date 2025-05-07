@@ -1,0 +1,98 @@
+
+
+  .HomeContainer {
+    padding: 5vh 2vw;
+    display: block;
+    align-items: center; 
+    height: 50vh; 
+    overflow: hidden;
+  }
+
+  #intro {
+    
+    font-size: 2vw;
+    position: absolute;
+    left: 4%;
+    top: 20%;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+        background-image: linear-gradient(to right, #00a764, #0f99de);
+      }
+      20% {
+        background-image: linear-gradient(to right, #00a783, #0fb6a0);
+      }
+      40% {
+        background-image: linear-gradient(to right, #0fb6ab, #00a783);
+      }
+      50% {
+        background-image: linear-gradient(to right, #0F7EB5, #00a764);
+      }
+      60% {
+        background-image: linear-gradient(to right, #00a783, #0fb6a0);
+      }
+      80% {
+        background-image: linear-gradient(to right, #03d283ec, #0faab5);
+      }
+      100% {
+        background-image: linear-gradient(to right, #00a764, #0F7EB5);
+      }
+  }
+  
+  #title {
+    font-size: 1.8vw;
+    position: absolute;
+    left: 15%;
+    top: 35%; 
+    letter-spacing: 10%;
+    display: inline-block;
+    background-image: linear-gradient(to right, #01E98E, #0F7EB5);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+   /* animation: gradientAnimation 3s infinite ease-in;*/
+
+  }
+  
+button {
+    position: relative;
+    top: 60%;
+    width: 17vh;
+    height: 5vh;
+    border-radius: 15px;
+    color: #050C2A;
+    background-color: #589BA4;
+    border-color: #35ba8e;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #284c41e8;
+    color: #35ba8e;
+}
+
+.absolute{
+    position: absolute;
+    top: 11%;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 1vh;
+    }
+  
+    .intro {
+        font-size: 6vw; 
+    }
+  
+    .title {
+        font-size: 3vw;
+    }
+  
+
+  }
