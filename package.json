@@ -1,5 +1,6 @@
 {
   "name": "andreatopic.github.io",
+  "homepage": "https://andreatopic.github.io",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,7 +14,6 @@
   "author": "AndreaDev",
   "license": "ISC",
   "description": "My portfolio website",
-  "homepage": "https://andreatopic.github.io",
   "repository": {
     "type": "git",
     "url": "https://github.com/Andreax7/andreatopic.github.io.git"
