@@ -4,12 +4,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --mode development",
-    "build": "webpack --mode production",
-    "predeploy": "npm run build && echo '/* /index.html 200' > build/_redirects",
-    "deploy": "gh-pages -d build"
-  },
+  "start": "webpack serve --mode development",
+  "build": "webpack --mode production",
+  "deploy": "rmdir /s /q docs && npm run build && git add -f docs && git commit -m \"Build and deploy\" && git push"
+} ,
   "keywords": [],
   "author": "AndreaDev",
   "license": "ISC",

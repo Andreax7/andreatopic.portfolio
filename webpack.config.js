@@ -5,11 +5,11 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
-  output: {
+ output: {
   path: path.resolve(__dirname, 'docs'),
   filename: 'bundle.js',
-  publicPath: '', // ← this ensures relative paths
-  },
+  publicPath: '', // this ensures relative paths
+ },
   mode: process.env.NODE_ENV || "development",
   module: {
     rules: [
