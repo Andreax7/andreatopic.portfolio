@@ -6,7 +6,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 module.exports = {
   entry: "./src/index.js",
   output: {
-  path: path.resolve(__dirname, 'dist'),
+  path: path.resolve(__dirname, 'docs'),
   filename: 'bundle.js',
   publicPath: '', // ← this ensures relative paths
   },
@@ -38,7 +38,7 @@ module.exports = {
   ],
   devtool: "cheap-module-source-map", // Fast & useful in development
   devServer: {
-    static: path.resolve(__dirname, "dist"),
+    static: path.resolve(__dirname, "docs"),
     port: 3000,
     open: true, headers: {
     "Content-Security-Policy": "img-src 'self';"
