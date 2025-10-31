@@ -8,7 +8,7 @@ module.exports = {
  output: {
   path: path.resolve(__dirname, 'docs'),
   filename: 'bundle.js',
-  publicPath: '', // this ensures relative paths
+  publicPath: '/andreatopic.portfolio', // this ensures relative paths
  },
   mode: process.env.NODE_ENV || "development",
   module: {
