@@ -21,7 +21,7 @@ const backgrounds = {
 
 function BackgroundWrapper({ children }) {
   const location = useLocation();
-  const backgroundImage = backgrounds[location.pathname] || backgrounds["/"];
+  const backgroundImage = backgrounds[location.pathname] || backgrounds["/andreatopic.portfolio"];
 
   useEffect(() => {
     // body background change on navigation
