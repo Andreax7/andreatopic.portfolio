@@ -41,8 +41,8 @@ module.exports = {
     static: path.resolve(__dirname, "docs"),
     port: 3000,
     open: true, headers: {
-    "Content-Security-Policy": "img-src 'self';"
-    },
+  "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https:;"
+},
    historyApiFallback: true, // This ensures React Router handles all routes
   },
 };

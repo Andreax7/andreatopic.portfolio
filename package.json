@@ -1,5 +1,5 @@
 {
-  "name": "andreatopic.github.io",
+  "name": "andreatopic.portfolio",
   "homepage": "https://andreatopic.github.io",
   "version": "1.0.0",
   "main": "index.js",
@@ -14,7 +14,7 @@
   "description": "My portfolio website",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Andreax7/andreatopic.github.io.git"
+    "url": "https://github.com/Andreax7/andreatopic.portfolio.git"
   },
   "dependencies": {
     "@babel/core": "^7.26.8",
