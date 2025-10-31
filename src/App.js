@@ -46,7 +46,7 @@ function BackgroundWrapper({ children }) {
 function App() {
   return(<>
    
-   <Router>
+   <Router basename="/andreatopic.portfolio" >
       <BackgroundWrapper>
         <Navigation />
         <Routes>
