@@ -13,7 +13,7 @@ import projectsBackground from "./img/projects_background.jpg";
 
 
 const backgrounds = {
-  "/": `url(${bckgrnd})`,
+  "/andreatopic.portfolio": `url(${bckgrnd})`,
   "/about": `url(${aboutmeBackground})`,
   "/projects": `url(${projectsBackground})`,
   "/contact": `url(${aboutmeBackground})`
