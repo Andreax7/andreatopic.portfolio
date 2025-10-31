@@ -50,7 +50,7 @@ function App() {
       <BackgroundWrapper>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/andreatopic.portfolio" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
