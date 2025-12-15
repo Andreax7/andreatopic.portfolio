@@ -2,8 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # Runs when pushing to the main branch
+    branches: [main]  # Runs when pushing to the main branch
 
 jobs:
   deploy:

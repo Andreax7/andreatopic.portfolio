@@ -13,7 +13,7 @@ import projectsBackground from "./img/projects_background.jpg";
 
 
 const backgrounds = {
-  "/andreatopic.portfolio": `url(${bckgrnd})`,
+  "/": `url(${bckgrnd})`,
   "/about": `url(${aboutmeBackground})`,
   "/projects": `url(${projectsBackground})`,
   "/contact": `url(${aboutmeBackground})`
@@ -21,7 +21,7 @@ const backgrounds = {
 
 function BackgroundWrapper({ children }) {
   const location = useLocation();
-  const backgroundImage = backgrounds[location.pathname] || backgrounds["/andreatopic.portfolio"];
+  const backgroundImage = backgrounds[location.pathname] || backgrounds["/"];
 
   useEffect(() => {
     // body background change on navigation
@@ -46,11 +46,11 @@ function BackgroundWrapper({ children }) {
 function App() {
   return(<>
    
-   <Router basename="/andreatopic.portfolio" >
+   <Router basename="/" >
       <BackgroundWrapper>
         <Navigation />
         <Routes>
-          <Route path="/andreatopic.portfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/contact" element={<Contact />} />
