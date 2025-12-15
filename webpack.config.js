@@ -8,7 +8,7 @@ module.exports = {
  output: {
   path: path.resolve(__dirname, 'docs'),
   filename: 'bundle.js',
-  publicPath: '/andreatopic.portfolio/', // this ensures relative paths
+  publicPath: '/andreatopic.portfolio/', // Ensures relative paths
  },
   mode: process.env.NODE_ENV || "development",
   module: {
@@ -43,6 +43,6 @@ module.exports = {
     open: true, headers: {
   "Content-Security-Policy": "default-src 'self'; img-src 'self' data: https:;"
 },
-   historyApiFallback: true, // This ensures React Router handles all routes
+   historyApiFallback: true, // Ensures React Router handles all routes
   },
 };
