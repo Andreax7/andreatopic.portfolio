@@ -46,14 +46,14 @@ function BackgroundWrapper({ children }) {
 function App() {
   return(<>
    
-   <Router basename="/" >
+   <Router basename="/andreatopic.portfolio" >
       <BackgroundWrapper>
         <Navigation />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/about" element={<AboutMe />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/andreatopic.portfolio" element={<Home />} />
+          <Route path="/andreatopic.portfolio/projects" element={<Projects />} />
+          <Route path="/andreatopic.portfolio/about" element={<AboutMe />} />
+          <Route path="/andreatopic.portfolio/contact" element={<Contact />} />
         </Routes>
       </BackgroundWrapper>
     </Router>
