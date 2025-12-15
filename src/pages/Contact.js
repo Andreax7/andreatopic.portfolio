@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="ProjectsContainer">
       <h1>Contact Page</h1>
 
-      <></>
+      <p> [ under construction ]</p>
     </div>
     
  )

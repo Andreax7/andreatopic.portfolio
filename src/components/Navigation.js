@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import logo from "../img/my-logo.png"
 
 export default function Navigation() {
@@ -7,9 +7,9 @@ export default function Navigation() {
     <nav>
     <ul>
     <li><NavLink to="/"><img id="logo" src={logo} alt="myLogo" width="301px" height="142px"/></NavLink></li>
-      <li><NavLink to="/projects">MY PROJECTS</NavLink></li>
-      <li><NavLink to="/about">ABOUT ME</NavLink></li>
-      <li><NavLink to="/contact">CONTACT</NavLink></li>
+      <li><Link to="/projects">MY PROJECTS</Link></li>
+      <li><Link to="/about">ABOUT ME</Link></li>
+      <li><Link to="/contact">CONTACT</Link></li>
       
       </ul>
     </nav>

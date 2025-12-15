@@ -6,7 +6,7 @@ export default function Aboutme() {
    <div className="AboutmeContainer">
         <h1>About Me Page</h1>
 
-        <p></p>
+         <p> [ under construction ]</p>
 
         
    </div>
